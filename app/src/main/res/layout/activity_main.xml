@@ -12,8 +12,24 @@
         android:layout_height="wrap_content"
         android:text="Happy"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="288dp"
+        android:layout_height="446dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="43dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/close_up_of_cat_wearing_sunglasses_while_sitting_royalty_free_image_1571755145" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
